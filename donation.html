@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en" dir="lrt">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Changemakers Petals of Kindness is a platform dedicated to spreading kindness through donations, community support, and inspiring positive change.">
+    <meta name="keywords" content="Changemakers Petals of Kindness, charity, donations, kindness, community support, volunteer, social impact, humanitarian aid">
+    <meta name="author" content="Changemakers Petals of Kindness">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Changemakers Petals of Kindness - Inspiring Change Together">
+    <meta property="og:site_name" content="Changemakers Petals of Kindness">
+    <meta property="og:url" content="index.html">
+    <meta property="og:image" content="assets/images/logo.png">
+    <meta property="og:description" content="Join Changemakers Petals of Kindness to spread positivity and inspire change through community initiatives and support.">
+    <meta name="twitter:title" content="Changemakers Petals of Kindness - Inspiring Change Together">
+    <meta name="twitter:description" content="Join Changemakers Petals of Kindness to spread positivity and inspire change through community initiatives and support.">
+    <meta name="twitter:image" content="assets/images/logo.png">
+    <meta name="twitter:card" content="summary">
+    <title>Changemakers Petals of Kindness - Spreading Kindness Together</title>
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="assets/images/icon/favicon.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-5.3.0.min.css">
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" type="text/css" href="assets/css/remixicon.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/plugin.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main-style.css">
+    <!-- Additional Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+
+    <body>
+        <div class="loading-page" id="preloader-active">
+            <div class="counter">
+                <p class="text text-capitalize">Spreading Kindness</p>
+                <span class="number">0%</span>
+                <span class="line"></span>
+            </div>
+        </div>
+             
+<header>
+    <div class="header-area">
+        <div class="main-header header-sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="menu-wrapper d-flex align-items-center justify-content-between">
+                            <div class="header-left d-flex align-items-center justify-content-between">
+                                <!-- Logo-->
+                                <div class="logo logo-large light-logo">
+                                    <a href="index.html"><img src="assets/images/logo/Logo-charitfix.png"
+                                            alt="logo"></a>
+                                </div>
+                                <!-- Logo Mobile-->
+                                <div class="logo logo-mobile light-logo">
+                                    <a href="index.html"><img src="assets/images/icon/favicon.png" alt="img"></a>
+                                </div>
+                            </div>
+
+                            <div class="search-container">
+                                <input type="text" id="searchField" class="search-field" placeholder="Search...">
+                                <button id="closeSearch" class="close-search-btn"><i class="ri-close-line"></i></button>
+                            </div>
+
+                            <!-- Main-menu for desktop -->
+                            <div class="main-menu d-none d-lg-block">
+                                <nav>
+                                    <ul class="listing" id="navigation">
+                                        <li class="single-list">
+                                            <a href="index.html"
+                                                class="single active">Home
+                                            </a>
+                                        </li>
+                                        <li class="single-list"><a href="about.html"
+                                                class="single ">About</a>
+                                        </li>
+                                        <li class="single-list"><a href="donation.html"
+                                                class="single  ">Donation</a>
+                                        </li>
+                                        <li class="single-list"><a href="blog.html"
+                                                class="single ">Blog</a>
+                                        </li>
+
+                                        <li class="single-list"><a href="contact-us.html"
+                                                class="single ">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+
+                            <div class="header-right">
+                                <div class="cart">
+                                    <!-- search button -->
+
+                                    <a href="donation/create.html"
+                                        class="btn-primary-fill pill-btn">Donate</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="div">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+                
+        
+            <main>
+        <!-- Breadcrumb Area S t a r t -->
+        <section class="breadcrumb-section breadcrumb-bg">
+            <div class="container">
+                <div class="breadcrumb-text">
+                    <nav aria-label="breadcrumb" class="breadcrumb-nav wow fadeInUp" data-wow-delay="0.0s">
+                        <ul class="breadcrumb listing">
+                            <li class="breadcrumb-item single-list"><a href="index.html" class="single">Home</a>
+                            </li>
+                            <li class="breadcrumb-item single-list" aria-current="page"><a href="javascript:void(0)"
+                                    class="single">Donation</a></li>
+                        </ul>
+                    </nav>
+                    <h1 class="title wow fadeInUp" data-wow-delay="0.1s">donation list</h1>
+                </div>
+            </div>
+        </section>
+        <!-- End-of Breadcrumb Area -->
+
+        <!-- donate S t a r t -->
+<section class="donate-section top-bottom-padding">
+    <div class="container">
+        <div class="row gy-24">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 view-wrapper">
+                <div class="single-donate h-calc">
+                    <div class="donate-img position-relative">
+                        <a href="#"><img class="w-100" src="assets/images/gallery/donate-6.png" alt="Christmas Donation"></a>
+                        <div class="donate-badge">
+                            <p class="subtitle">Joy</p>
+                        </div>
+                    </div>
+                    <div class="donate-info">
+                        <h4 class="title text-capitalize"><a href="#">Donating for Children this Christmas</a></h4>
+                        <p class="subtitle">Spread joy this holiday season by donating to children's charities. Your support can provide essentials and bring happiness to vulnerable youth.</p>
+                        <div class="progress custom-progress-two">
+                            <div class="progress-bar" style="width: 66%"></div>
+                        </div>
+                        <div class="flex justify-content-between mt-14 mb-20">
+                            <div class="charges">
+                                <p class="pera">$300,000</p>
+                                <h4 class="title">Goal</h4>
+                            </div>
+                            <div class="charges">
+                                <p class="pera">$197,500</p>
+                                <h4 class="title">Raised</h4>
+                            </div>
+                        </div>
+                        <a href="donation/create.html" class="btn donate-btn w-100">Donate Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Donation Cause 1 -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 view-wrapper">
+                <div class="single-donate h-calc">
+                    <div class="donate-img position-relative">
+                        <a href="#"><img class="w-100" src="assets/images/gallery/donate-1.png" alt="Food Donation"></a>
+                        <div class="donate-badge">
+                            <p class="subtitle">Food</p>
+                        </div>
+                    </div>
+                    <div class="donate-info">
+                        <h4 class="title text-capitalize"><a href="#">Nourishing Communities</a></h4>
+                        <p class="subtitle">Provide nutritious meals, emergency food supplies, and sustainable food education to families in need. Help us fight hunger and create lasting change.</p>
+                        <div class="progress custom-progress-two">
+                            <div class="progress-bar" style="width: 70%"></div>
+                        </div>
+                        <div class="flex justify-content-between mt-14 mb-20">
+                            <div class="charges">
+                                <p class="pera">$75,000</p>
+                                <h4 class="title">Goal</h4>
+                            </div>
+                            <div class="charges">
+                                <p class="pera">$52,340</p>
+                                <h4 class="title">Raised</h4>
+                            </div>
+                        </div>
+                        <a href="donation/create.html" class="btn donate-btn w-100">Donate Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Donation Cause 2 -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 view-wrapper">
+                <div class="single-donate h-calc">
+                    <div class="donate-img position-relative">
+                        <a href="#"><img class="w-100" src="assets/images/gallery/donate-2.png" alt="Education Donation"></a>
+                        <div class="donate-badge">
+                            <p class="subtitle">Education</p>
+                        </div>
+                    </div>
+                    <div class="donate-info">
+                        <h4 class="title text-capitalize"><a href="#">Empowering Through Learning</a></h4>
+                        <p class="subtitle">Your support ensures children receive scholarships, learning materials, and after-school programs. Together, we can break the cycle of poverty through education.</p>
+                        <div class="progress custom-progress-two">
+                            <div class="progress-bar" style="width: 83%"></div>
+                        </div>
+                        <div class="flex justify-content-between mt-14 mb-20">
+                            <div class="charges">
+                                <p class="pera">$100,000</p>
+                                <h4 class="title">Goal</h4>
+                            </div>
+                            <div class="charges">
+                                <p class="pera">$82,650</p>
+                                <h4 class="title">Raised</h4>
+                            </div>
+                        </div>
+                        <a href="donation/create.html" class="btn donate-btn w-100">Donate Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Donation Cause 3 -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 view-wrapper">
+                <div class="single-donate h-calc">
+                    <div class="donate-img position-relative">
+                        <a href="#"><img class="w-100" src="assets/images/gallery/kidney.jpg" alt="Health Donation"></a>
+                        <div class="donate-badge">
+                            <p class="subtitle">Health</p>
+                        </div>
+                    </div>
+                    <div class="donate-info">
+                        <h4 class="title text-capitalize"><a href="#">Tracy's Kidney Transplant</a></h4>
+                        <p class="subtitle">Support Tracy as she fights neuroblastoma and undergoes critical medical treatments. Together, we can give her the hope and health she deserves.</p>
+                        <div class="progress custom-progress-two">
+                            <div class="progress-bar" style="width: 78%"></div>
+                        </div>
+                        <div class="flex justify-content-between mt-14 mb-20">
+                            <div class="charges">
+                                <p class="pera">$250,000</p>
+                                <h4 class="title">Goal</h4>
+                            </div>
+                            <div class="charges">
+                                <p class="pera">$195,102</p>
+                                <h4 class="title">Raised</h4>
+                            </div>
+                        </div>
+                        <a href="donation/create.html" class="btn donate-btn w-100">Donate Now</a>
+                    </div>
+                </div>
+            </div>
+             <!-- Donation Cause: Fight Cyber Impersonation -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 view-wrapper">
+                <div class="single-donate h-calc">
+                    <div class="donate-img position-relative">
+                        <a href="#"><img class="w-100" src="assets/images/gallery/donate-7.png" alt="Cyber Impersonation"></a>
+                        <div class="donate-badge">
+                            <p class="subtitle">Cyber</p>
+                        </div>
+                    </div>
+                    <div class="donate-info">
+                        <h4 class="title text-capitalize"><a href="#">Fight Cyber Impersonation</a></h4>
+                        <p class="subtitle">Support initiatives to combat cyber impersonation scams and aid victims in recovery. Together, we can create a safer online space.</p>
+                        <div class="progress custom-progress-two">
+                            <div class="progress-bar" style="width: 45%"></div>
+                        </div>
+                        <div class="flex justify-content-between mt-14 mb-20">
+                            <div class="charges">
+                                <p class="pera">$200,000</p>
+                                <h4 class="title">Goal</h4>
+                            </div>
+                            <div class="charges">
+                                <p class="pera">$90,120</p>
+                                <h4 class="title">Raised</h4>
+                            </div>
+                        </div>
+                        <a href="donation/create.html" class="btn donate-btn w-100">Donate Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Donation Cause 4 -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 view-wrapper">
+                <div class="single-donate h-calc">
+                    <div class="donate-img position-relative">
+                        <a href="#"><img class="w-100" src="assets/images/gallery/donate-3.png" alt="Medical Donation"></a>
+                        <div class="donate-badge">
+                            <p class="subtitle">Medical</p>
+                        </div>
+                    </div>
+                    <div class="donate-info">
+                        <h4 class="title text-capitalize"><a href="#">Healing & Hope</a></h4>
+                        <p class="subtitle">Provide essential healthcare services, preventive care, and emergency medical support to underserved communities. Together, we can make a difference.</p>
+                        <div class="progress custom-progress-two">
+                            <div class="progress-bar" style="width: 66%"></div>
+                        </div>
+                        <div class="flex justify-content-between mt-14 mb-20">
+                            <div class="charges">
+                                <p class="pera">$150,000</p>
+                                <h4 class="title">Goal</h4>
+                            </div>
+                            <div class="charges">
+                                <p class="pera">$98,750</p>
+                                <h4 class="title">Raised</h4>
+                            </div>
+                        </div>
+                        <a href="donation/create.html" class="btn donate-btn w-100">Donate Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Donation Cause 5 -->
+            <!-- Donation Cause: Support for Pets -->
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 view-wrapper">
+    <div class="single-donate h-calc">
+        <div class="donate-img position-relative">
+            <a href="#"><img class="w-100" src="assets/images/gallery/donate-pets.png" alt="Scottish Terrier Support"></a>
+            <div class="donate-badge">
+                <p class="subtitle">Scottish Terriers</p>
+            </div>
+        </div>
+        <div class="donate-info">
+            <h4 class="title text-capitalize"><a href="#">Supporting Scottish Terriers in Need</a></h4>
+            <p class="subtitle">Scottish Terriers are loyal, intelligent, and loving companions, but many end up in shelters or in desperate need of care due to abandonment, illness, or neglect. Your support can transform their lives for the better.</p>
+            <p class="subtitle">Every donation helps provide critical medical care, safe shelters, and loving homes for these wonderful dogs. With your generosity, we can ensure their health, happiness, and a brighter future. Together, we can give these remarkable companions the second chance they deserve.</p>
+            <div class="progress custom-progress-two">
+                <div class="progress-bar" style="width: 30%"></div>
+            </div>
+            <div class="flex justify-content-between mt-14 mb-20">
+                <div class="charges">
+                    <p class="pera">$200,000</p>
+                    <h4 class="title">Goal</h4>
+                </div>
+                <div class="charges">
+                    <p class="pera">$60,000</p>
+                    <h4 class="title">Raised</h4>
+                </div>
+            </div>
+            <a href="donation/create.html" class="btn donate-btn w-100">Donate Now</a>
+        </div>
+    </div>
+</div>
+            
+        </div>
+    </div>
+</section>
+        <!-- End-of donate -->
+
+    </main>
+            <!-- Footer S t a r t -->
+
+        <!-- Gallery S t a r t -->
+        <div class="gallery-area">
+            <div class="gallery-slider d-flex">
+                <div class="gallery-img">
+                    <img src="assets/images/gallery/gallery-1.png" alt="img">
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/images/gallery/gallery-2.png" alt="img">
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/images/gallery/gallery-3.png" alt="img">
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/images/gallery/gallery-4.png" alt="img">
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/images/gallery/gallery-2.png" alt="img">
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/images/gallery/gallery-3.png" alt="img">
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/images/gallery/gallery-1.png" alt="img">
+                </div>
+            </div>
+        </div>
+        <!-- End-of Gallery -->        <footer>
+    <div class="footer-wrapper footer-bg-one">
+        <div class="container">
+            <div class="footer-menu">
+                <div class="col-lg-12">
+                    <div class="menu-wrapper d-flex align-items-center justify-content-between">
+                        <div class="header-left d-flex align-items-center justify-content-between">
+                            <!-- Logo-->
+                            <div class="logo">
+                                <a href="index.html"><img src="assets/images/logo/dark.png"
+                                        alt="logo"></a>
+                            </div>
+                        </div>
+                        <!-- Footer-menu -->
+                        <div class="main-menu d-none d-lg-block">
+                            <nav>
+                                <ul class="listing" id="navigation2">
+                                    <li class="single-list"><a href="index.html" class="single">Home</a></li>
+                                    <li class="single-list"><a href="donation.html"
+                                            class="single">Donation</a></li>
+                                    <li class="single-list"><a href="about.html" class="single">About</a>
+                                    </li>
+                                    <li class="single-list"><a href="blog.html" class="single">Blog</a></li>
+                                    <li class="single-list"><a href="contact-us.html"
+                                            class="single">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- Right button -->
+                        <ul class="cart">
+                            <li class="cart-list"><a href="donation/create.html" class="donate-btn">Donate</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-line">
+            <div class="footer-imp-link row g-4 justify-content-between">
+                <div class="col-xl-2 col-lg-6">
+                    <div class="footer-link">
+                        <h4 class="title">Explore Links</h4>
+                        <ul class="imp-link">
+                            <li class="single-list">
+                                <a class="single" href="index.html">Home</a>
+                            </li>
+                            <li class="single-list">
+                                <a class="single" href="about.html">About</a>
+                            </li>
+                            <li class="single-list">
+                                <a class="single" href="donation.html">Donation</a>
+                            </li>
+                            <li class="single-list">
+                                <a class="single" href="contact-us.html">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-6">
+                    <div class="footer-link">
+                        <h4 class="title">Get Support</h4>
+                        <ul class="imp-link">
+                            <li class="single-list">
+                                <a class="single" href="faq.html">FAQ</a>
+                            </li>
+                            <li class="single-list">
+                                <a class="single" href="our-mission.html">Our Mission</a>
+                            </li>
+                            <li class="single-list">
+                                <a class="single" href="privacy-policy.html">Privacy Policy</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-5">
+                    <div class="footer-link">
+                        <h4 class="title">Get Support</h4>
+                        <ul class="imp-link">
+                            <li class="single-list">
+                                <div class="d-flex align-items-center gap-10 mb-20">
+                                    <div class="imp-icon">
+                                        <i class="ri-mail-fill"></i>
+                                    </div>
+                                    <a class="single" href="mailto:support@theChangeMakers.org">support@theChangeMakers.org</a>
+                                </div>
+                            </li>
+
+                            <li class="single-list">
+                                <div class="d-flex align-items-center gap-10 mb-20">
+                                    <div class="imp-icon">
+                                        <i class="ri-phone-fill"></i>
+                                    </div>
+                                    <a class="single" href="tel:+1 (803) 586-5870">+1 (803) 586-5870</a>
+                                </div>
+                            </li>
+                           
+                            <li class="single-list">
+                                <div class="d-flex align-items-center gap-10 mb-20">
+                                    <div class="imp-icon">
+                                        <i class="ri-map-pin-2-fill"></i>
+                                    </div>
+                                    <a class="single" href="javascript:void(0)">South Carolina, Hilton Island</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            
+            </div>
+            <hr class="footer-line">
+        </div>
+        <!-- footer-bottom area -->
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="footer-border">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="footer-copy-right text-center">
+                                <p class="pera">Copyright © 2023 Change-Makers. All rights reserved.</p>
+                                <div class="footer-social-link">
+                                    <ul class="listing">
+                                        <li class="single-list">
+                                            <a class="single" href="#"><i
+                                                    class="ri-facebook-fill"></i></a>
+                                        </li>
+                                        <li class="single-list">
+                                            <a class="single" href="#"><i
+                                                    class="ri-youtube-fill"></i></a>
+                                        </li>
+                                        <li class="single-list">
+                                            <a class="single" href="#"><i
+                                                    class="ri-instagram-line"></i></a>
+                                        </li>
+                                        <li class="single-list">
+                                            <a class="single" href="#"><i
+                                                    class="ri-linkedin-fill"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>        <!-- End-of Footer -->
+        <!-- Scroll Up  -->
+        <div class="progressParent" id="back-top">
+    <svg class="backCircle svg-inner" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+</div>        <!-- Add an overlay element -->
+        <div class="overlay"></div>
+
+     
+        <!-- jquery-->
+        <script src="assets/js/jquery-3.7.0.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap-5.3.0.min.js"></script>
+        <!-- Plugin -->
+        <script src="assets/js/plugin.js"></script>
+        <!-- Main js-->
+        <script src="assets/js/main.js"></script>
+
+            </body>
+
+
+</html>

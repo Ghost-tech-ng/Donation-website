@@ -1,0 +1,21 @@
+
+---
+
+### .gitignore File
+
+```plaintext
+# Ignore sensitive files
+donation/db_connection.php
+PHPMailer/PHPMailerAutoload.php
+
+
+# Ignore local server environment files
+.env
+
+# Ignore common IDE configurations
+.idea/
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
